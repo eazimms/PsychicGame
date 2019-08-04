@@ -1,0 +1,46 @@
+.lamp {
+  background-color: green; 
+  color: black; 
+  border-radius: 10px; 
+  height: 25rem; 
+
+}
+
+.wish {
+
+  
+}
+
+h1 {
+  text-align: center; 
+  background: linear-gradient(92deg, #a960cf, #530d60);
+  text-decoration: underline; 
+  font-family: 'Tangerine', cursive;
+
+}
+
+body {
+  background: linear-gradient(200deg, #180e82, #a8a5c8);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 19s ease infinite;
+  -moz-animation: AnimationName 19s ease infinite;
+  animation: AnimationName 19s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+  @keyframes AnimationName { 
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+}
+}
